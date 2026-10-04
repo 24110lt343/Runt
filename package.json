@@ -1,0 +1,28 @@
+{
+  "name": "runt",
+  "version": "1.0.0",
+  "description": "This is RUNT, a robuts code execution and judgement system. ",
+  "homepage": "https://github.com/24110lt343/Runt#readme",
+  "bugs": {
+    "url": "https://github.com/24110lt343/Runt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24110lt343/Runt.git"
+  },
+  "license": "MIT",
+  "author": "Akash Mishra - Autox",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dockerode": "^5.0.1",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.4",
+    "tar-fs": "^3.1.3"
+  }
+}
